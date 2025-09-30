@@ -79,3 +79,40 @@ Commit pushed successfully.
 f030da3 (HEAD -> main, origin/main) Auto-sync: 2025-09-30T11:16:24+02:00
 ============================
 
+============================
+Auto-sync run at: 2025-09-30T15:31:01+02:00
+Working directory: /d/Michel/DAStatFormer
+Branch: main
+
+>>> Pulling latest changes...
+D	DASFormer.py
+M	auto_sync.log
+M	results_figure/DAS_DataNorm_all_domains_for_GTN_Conf_Max.png
+D	transormer.py
+M	utils/visualization.py
+Your branch is up to date with 'origin/main'.
+Already on 'main'
+From https://github.com/mikeDione27/DAStatFormer
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+>>> Adding files...
+warning: in the working copy of 'auto_sync.log', LF will be replaced by CRLF the next time Git touches it
+>>> Changes detected, committing...
+[main 955c366] Auto-sync: 2025-09-30T15:31:07+02:00
+ 8 files changed, 28 insertions(+), 688 deletions(-)
+ delete mode 100644 DASFormer.py
+ create mode 100644 results_figure/DAS_DataNorm_all_domains_for_GTN 95.72% Adagrad epoch=2 batch=32 lr=0.0001 pe=True mask=True [256,8,8,8,8,0.2].png
+ create mode 100644 saved_model/DAS_DataNorm_all_domains_for_GTN 95.72% batch=32.pkl
+ create mode 100644 saved_model/DAS_DataNorm_all_domains_for_GTN batch=32.pkl
+ delete mode 100644 transormer.py
+>>> Pushing to remote...
+To https://github.com/mikeDione27/DAStatFormer.git
+   f030da3..955c366  main -> main
+Commit pushed successfully.
+
+>>> Current status:
+ M auto_sync.log
+>>> Last commit:
+955c366 (HEAD -> main, origin/main) Auto-sync: 2025-09-30T15:31:07+02:00
+============================
+

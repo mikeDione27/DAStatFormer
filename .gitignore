@@ -1,7 +1,7 @@
 # Ignorer fichiers MATLAB
 *.m
 *.mat
-*.fig
+#*.fig
 
 # Ignorer ton dataset local
 das_data/

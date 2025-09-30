@@ -114,7 +114,7 @@ def result_visualization(loss_list: list,
         print("⚠️ Police 'simsun.ttc' non trouvée, police par défaut utilisée.")
         my_font = None
     # Set style
-    plt.style.use('seaborn-v0_8')
+    plt.style.use('default')
 
     fig = plt.figure()  # Create base figure
     ax1 = fig.add_subplot(311)  # Create two subplots

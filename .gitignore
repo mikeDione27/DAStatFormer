@@ -1,0 +1,12 @@
+# Ignorer fichiers MATLAB
+*.m
+*.mat
+*.fig
+
+# Ignorer ton dataset local
+das_data/
+
+# Ignorer fichiers temporaires Python
+__pycache__/
+*.pyc
+*.pyo

@@ -32,7 +32,8 @@ cd "$REPO_DIR"
     echo ">>> Pulling latest changes..."
     git fetch origin
     git checkout "$BRANCH"
-    git pull --rebase origin "$BRANCH"
+    git pull --rebase --autostash origin "$BRANCH"
+
 
     echo ">>> Adding files..."
     git add -A

@@ -57,7 +57,7 @@ draw_key = 1  # Save visualizations only if epoch >= draw_key
 file_name = path.split('\\')[-1][0:path.split('\\')[-1].index('.')]  # Extract file name
 
 # Hyperparameter settings
-EPOCH = 100
+EPOCH = 200
 BATCH_SIZE = 32
 LR = 1e-4
 DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")  # Select device: CPU or GPU

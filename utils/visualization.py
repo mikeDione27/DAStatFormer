@@ -128,9 +128,9 @@ def result_visualization(loss_list: list,
     ax1.set_xlabel('epoch')
     ax1.set_ylabel('loss')
     ax2.set_xlabel(f'epoch/{test_interval}')
-    ax2.set_ylabel('correct')
-    ax1.set_title('LOSS')
-    ax2.set_title('CORRECT')
+    ax2.set_ylabel('Accuracy')
+    ax1.set_title('Loss')
+    ax2.set_title('Accuracy')
 
     plt.legend(loc='best')
 
